@@ -1,0 +1,26 @@
+Remove Adjacent Duplicate Characters
+
+Description
+
+This Java program removes adjacent duplicate characters using a Stack.
+
+How It Works
+
+- "push()" adds a character to the Stack.
+- "peek()" checks the top character.
+- "pop()" removes a character when two adjacent characters match.
+- "StringBuilder" builds the final String.
+
+Example
+
+Input: "abbaca"
+
+Output: "ca"
+
+Time Complexity
+
+O(n), where n is the length of the String.
+
+Data Structure
+
+Stack<Character>
